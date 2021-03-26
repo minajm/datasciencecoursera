@@ -1,1 +1,12 @@
+#1. Install swirl
+install.packages("swirl")
+packageVersion("swirl")
 
+#2. Load swirl
+library(swirl)
+
+#3. Install the R Progroamming course
+install_from_swirl("R Programming")
+
+#4. Start swirl and complete the lessons
+swirl()
